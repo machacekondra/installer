@@ -61,4 +61,7 @@ type Platform struct {
 
 	// DNSVIP is the VIP to use for internal DNS communication
 	DNSVIP string `json:"dnsVIP"`
+
+	// Region is the region of the baremetal cluster
+	Region string `json:"region"`
 }
